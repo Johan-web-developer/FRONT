@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Cristiana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       </head>
+    <body>
+      <div class="sidebar close">
+        <div class="logo-details">
+          <i class='bx bxl-c-plus-plus'></i>
+          <span class="logo_name">Heavens</span>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+              <i class='bx bx-grid-alt' ></i>
+              <span class="link_name">Creyentes</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Creyentes</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-collection' ></i>
+                <span class="link_name">Datos Geograficos</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Informacion</a></li>
+              <li><a href="#">HTML & CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">PHP & MySQL</a></li>
+            </ul>
+          </li>
+          <li>
+          </li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="./imgs/user.jpg" alt="profileImg">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Johan Machado</div>
+            <div class="job">Web Developer</div>
+          </div>
+          <i class='bx bx-log-out' ></i>
+        </div>
+      </li>
+    </ul>
+      </div>
+      <section class="home-section">
+        <div class="home-content">
+          <i class='bx bx-menu' ></i>
+          <span class="text">Congregación eclesiástica</span>
+        </div>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                  <th>Creyente</th>
+                  <th>Barrio</th>
+                  <th>Comuna </th>
+                  <th>Municipio</th>
+                  <th>Departamento</th>
+              </tr>
+            </thead>
+              <!-- Aquí se pueden agregar filas con los datos correspondientes -->
+              <tbody id="creyente">
+              </tbody>
+          </table>
+      </section>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./creyentes.js" type="module"></script>
+</body>
+</html>
